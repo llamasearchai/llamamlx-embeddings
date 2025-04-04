@@ -14,14 +14,14 @@ with open(os.path.join("src", "llamamlx_embeddings", "version.py"), "r") as f:
     exec(f.read())
 
 setup(
-    name="llamamlx-embeddings",
+    name="llamamlx-embeddings-llamasearch",
     version=locals()["__version__"],
-    author="LLaMA MLX Embeddings Team",
-    author_email="info@example.com",
+    author="LlamaSearch AI",
+    author_email="nikjois@llamasearch.ai",
     description="Fast and efficient text embeddings using MLX on Apple Silicon",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/llamamlx-embeddings",
+    url="https://llamasearch.ai",
     project_urls={
         "Bug Tracker": "https://github.com/yourusername/llamamlx-embeddings/issues",
     },
